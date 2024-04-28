@@ -6,7 +6,7 @@ class_name SceneRegistry extends Node
 # so we're going to minimize how much/often we have to use that until Godot gets proper refactoring :)
 
 const main_scenes = {
-	"StartScreen": "res://Menus/start_screen.gd"
+	"StartScreen": "res://Menus/start_screen.tcsn"
 }
 
 const levels = {
