@@ -1,9 +1,11 @@
 [gd_scene load_steps=2 format=3 uid="uid://dakphwh8q4546"]
 
-[ext_resource type="Texture2D" uid="uid://bn0ij0tcfmfbl" path="res://icon.svg" id="1_wne7b"]
+[ext_resource type="PackedScene" uid="uid://dtdqviquear0w" path="res://Gameplay/Sprites/Paddle/Paddle.tscn" id="1_ct0i1"]
 
 [node name="Level01" type="Node2D"]
 
-[node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(93, 89)
-texture = ExtResource("1_wne7b")
+[node name="Paddle" parent="." instance=ExtResource("1_ct0i1")]
+offset_left = 27.0
+offset_top = 500.0
+offset_right = 86.0
+offset_bottom = 518.0
