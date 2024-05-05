@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtdqviquear0w"]
+
+[ext_resource type="Texture2D" uid="uid://dtbh8j0emovum" path="res://Gameplay/Sprites/Paddle/61-Breakout-Tiles.png" id="1_8davv"]
+[ext_resource type="Script" path="res://Gameplay/Sprites/Paddle/Paddle.gd" id="2_vtctu"]
+
+[node name="Paddle" type="NinePatchRect"]
+offset_right = 220.0
+offset_bottom = 18.0
+texture = ExtResource("1_8davv")
+patch_margin_left = 9
+patch_margin_top = 9
+patch_margin_right = 9
+patch_margin_bottom = 9
+script = ExtResource("2_vtctu")
